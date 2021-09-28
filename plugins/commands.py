@@ -200,4 +200,4 @@ async def bot_info(bot, message):
             InlineKeyboardButton('Source Code', url='https://github.com/kalanakt/imdb-autofilter-bot')
         ]
         ]
-    await message.reply(text="<b>Editor : <a href='https://t.me/kinu6'> Hash Minner</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/kalanakt/imdb-autofilter-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/series2day'>Today Series</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+    await message.reply(<a href="https://t.me/kinu6">Reverse Deverloper</a> \n <a href="https://t.me/Jinn_007">Main Repo Deverloper</a>)
