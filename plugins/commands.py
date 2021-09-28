@@ -99,12 +99,12 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", url=invite_link.invite_link),
+                        InlineKeyboardButton("Search Here", url='https://t.me/Spaciousuniversegroup1'),
                         InlineKeyboardButton("Source Code", url='https://github.com/kalanakt/imdb-autofilter-bot'),
                     ],
                    [
                        InlineKeyboardButton("Update Channel", url='https://t.me/Series2day'),
-                       InlineKeyboardButton("Support Group", url=invite_link.invite_link),
+                       InlineKeyboardButton("Support Group", url='https://t.me/Spaciousuniversegroup1'),
                     ],
                      [
                         InlineKeyboardButton("About", callback_data="about")
