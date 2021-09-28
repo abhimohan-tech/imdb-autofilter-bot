@@ -201,3 +201,4 @@ async def bot_info(bot, message):
         ]
         ]
     await message.reply(<a href="https://t.me/kinu6">Reverse Deverloper</a> \n <a href="https://t.me/Jinn_007">Main Repo Deverloper</a>)
+await query.message.edit(await message.reply(<a href="https://t.me/kinu6">Reverse Deverloper</a> \n <a href="https://t.me/Jinn_007">Main Repo Deverloper</a> \n <a href="https://docs.pyrogram.org/"> Used Pyrogram asyncio</a> \n <a href="https://github.com/kalanakt/imdb-autofilter-bot"> source code</a>))
