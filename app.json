@@ -35,7 +35,7 @@
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
-            "value": "1718532980"
+            "value": "1234567890"
         },
         "AUTH_USERS": {
             "description": "Username or ID of users to give access of inline search. Separate multiple users by space.\nLeave it empty if you don't want to restrict bot usage.",
@@ -49,7 +49,7 @@
         },
         "START_MSG": {
             "description": "Welcome message for start command",
-            "value": "**Hi, I'm [Media Search Bot V2](https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2) or you can call me as Auto-Filter Bot**\n\nHere you can search files in Inline mode as well as PM, Use the below buttons to search files or send me the name of file to search.",
+            "value": " Add welcome massege, Ex:- Hi i'm Movie group Autofilter Bot... ,how To add link? [link text](link) ex:- [spacious universe](https://t.me/series2day)",
             "required": false
         },
         "USE_CAPTION_FILTER": {
