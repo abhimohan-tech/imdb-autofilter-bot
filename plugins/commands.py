@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', url=invite_link.invite_link),
-                        InlineKeyboardButton('share group', url='https://telegram.me/share/url?url=invite_link.invite_link')
+                        InlineKeyboardButton('Search again', url= 'https://t.me/Spaciousuniversegroup1'),
+                        InlineKeyboardButton('share group', url='https://telegram.me/share/url?url=https://t.me/Spaciousuniversegroup1')
                     ]
                     ]
                 await bot.send_cached_media(
