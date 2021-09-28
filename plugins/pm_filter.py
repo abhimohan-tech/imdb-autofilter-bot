@@ -289,7 +289,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('Bot Help', url='https://t.me/kinu6'),
                 ]
                 ]
-            await query.message.edit(await message.reply(<a href="https://t.me/kinu6">Reverse Deverloper</a> \n <a href="https://t.me/Jinn_007">Main Repo Deverloper</a> \n <a href="https://docs.pyrogram.org/"> Used Pyrogram asyncio</a> \n <a href="https://github.com/kalanakt/imdb-autofilter-bot"> source code</a>))
+            (<a href="https://t.me/kinu6">Reverse Deverloper</a> \n <a href="https://t.me/Jinn_007">Main Repo Deverloper</a> \n <a href="https://docs.pyrogram.org/"> Used Pyrogram asyncio</a> \n <a href="https://github.com/kalanakt/imdb-autofilter-bot"> source code</a>))
+            await query.message.edit(text="<b>Reverse Deverloper : <a href='https://t.me/Jinn_007'> Hash Minner</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n Update Channel : <a href='https://t.me/Choie_bot'>Bot Support</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
