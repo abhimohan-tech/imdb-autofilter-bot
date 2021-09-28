@@ -13,12 +13,12 @@
 * Ability to restrict groups(AUTH_GROUPS)
 
 
-## If Any Doubts Ask In [Update Channel](https://t.me/ErrorXbotz), [Support Group](https://t.me/ErrorXsupport)
+## If Any Doubts Ask In [Bot Help](https://t.me/Bot2SupportBot)
 
 ## Installation
 
 ### Easy Way
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Jinn-Of-Telegram/Media-Search-bot-v2)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/kalanakt/imdb-autofilter-bot)
 ### Hard Way
 
 ```bash
@@ -87,10 +87,8 @@ logger - Get log file
 * Original [Repo](https://github.com/Mahesh0253/Media-Search-bot)
 
 
-## Support
-Contact Me On [Telegram](https://t.me/Jinn_007)
-
-[Update Channel](https://t.me/ErrorXbotz)
+## Special Note
+* this is modifaird verson of main responsibility .All credits should goes to main developers
 
 ## License
 Code released under [The GNU General Public License](LICENSE).
