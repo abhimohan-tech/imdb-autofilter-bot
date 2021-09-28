@@ -66,8 +66,8 @@ async def start(bot, cmd):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Search again', url='https://t.me/Spaciousuniversegroup1'),
-                        InlineKeyboardButton('share group', url='https://telegram.me/share/url?url=https://t.me/Spaciousuniversegroup1')
+                        InlineKeyboardButton('Search again', url=invite_link.invite_link),
+                        InlineKeyboardButton('share group', url='https://telegram.me/share/url?url=invite_link.invite_link')
                     ]
                     ]
                 await bot.send_cached_media(
@@ -99,12 +99,12 @@ async def start(bot, cmd):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("Search Here", url='https://t.me/Spaciousuniversegroup1'),
+                        InlineKeyboardButton("Search Here", url=invite_link.invite_link),
                         InlineKeyboardButton("Source Code", url='https://github.com/kalanakt/imdb-autofilter-bot'),
                     ],
                    [
                        InlineKeyboardButton("Update Channel", url='https://t.me/Series2day'),
-                       InlineKeyboardButton("Support Group", url='https://t.me/Spaciousuniversegroup1'),
+                       InlineKeyboardButton("Support Group", url=invite_link.invite_link),
                     ],
                      [
                         InlineKeyboardButton("About", callback_data="about")
