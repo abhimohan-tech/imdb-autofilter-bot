@@ -286,10 +286,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/ErrorXbotz'),
+                    InlineKeyboardButton('Bot Help', url='https://t.me/kinu6'),
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/Jinn_007'>꧁Ⓜⓤⓣⓗⓐⓛⓘⓑ_★࿐</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n Update Channel : <a href='https://t.me/ErrorXBotz'>ErrorXBotz</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(await message.reply(<a href="https://t.me/kinu6">Reverse Deverloper</a> \n <a href="https://t.me/Jinn_007">Main Repo Deverloper</a> \n <a href="https://docs.pyrogram.org/"> Used Pyrogram asyncio</a> \n <a href="https://github.com/kalanakt/imdb-autofilter-bot"> source code</a>))
 
 
 
@@ -310,7 +310,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                     InlineKeyboardButton('📥 More Bots 📥', url='https://t.me/ErrorXBotz'),
+                     InlineKeyboardButton(' Updates ', url='https://t.me/Series2Day'),
                     ]
                     ]
                 
@@ -341,7 +341,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                        InlineKeyboardButton('📥 More Bots 📥', url='https://t.me/ErrorXBotz'),
+                        InlineKeyboardButton('updates', url='https://t.me/Series2day'),
                     ]
                     ]
                 
@@ -357,4 +357,4 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "pages":
             await query.answer()
     else:
-        await query.answer("Nice.. Next Time Sure You Will Get It 🤭😝",show_alert=True)
+        await query.answer(" Search your own. 🤭😝",show_alert=True)
