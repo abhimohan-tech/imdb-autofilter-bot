@@ -96,7 +96,7 @@ async def start(bot, cmd):
             START_MSG,
             <html>
             <body>
-            <img src="bae.suzy.jpeg">
+            <img src="740full-bae-suzy.jpg">
             </body>
             <html/>
             parse_mode="Markdown",
