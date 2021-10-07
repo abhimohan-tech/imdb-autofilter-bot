@@ -94,11 +94,7 @@ async def start(bot, cmd):
     else:
         await cmd.reply_text(
             START_MSG,
-            <html>
-            <body>
             <img src="https://user-images.githubusercontent.com/86665964/136357553-208d1f2c-9cfa-4b59-ba10-4e6d128443ed.jpg">
-            </body>
-            <html/>
             parse_mode="Markdown",
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
